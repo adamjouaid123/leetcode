@@ -47,6 +47,6 @@ class Solution(object):
             return sort_two_linked_lists(left, right)
 
         return merge_k_lists(lists)
-        
 
-
+# Time complexity O(n log k) with n the number of nodes in all lists and k the number of lists
+# Space complexity is O(n) with n the number of nodes in all lists
